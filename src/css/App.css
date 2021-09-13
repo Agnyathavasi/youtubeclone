@@ -1,0 +1,28 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+.App .mainsection {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.App .left {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 18%;
+}
+.right {
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 82%;
+}

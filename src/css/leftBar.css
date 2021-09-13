@@ -1,0 +1,45 @@
+.leftBar {
+    background-color: #212121;
+    color: #f1f1f1;
+    max-height: 685px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.leftBar .list{
+    border-bottom: 1px solid grey;
+    margin: 0px 0 10px 0;
+    padding-bottom: 10px;
+}
+.leftBar .list h6{
+    color: grey;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.leftBar .list .listitem{
+    margin: 0;
+    padding: 10px 10px 10px 30px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.leftBar .list .listitem:hover{
+    background-color: #3a3a3a;
+}
+.leftBar .list .listitem:active{
+    background-color: #4a4a4a;
+}
+.leftBar .list .listitem .text {
+    padding-left: 15px;
+    padding-top: 2px;
+}
+.leftBar .bottomspace{
+    margin-bottom: 800px;
+}
+::-webkit-scrollbar {
+	width: 7px;
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(rgba(194, 194, 194, 0.4),rgba(194, 194, 194, 0.4));
+	border-radius: 5px;
+}
