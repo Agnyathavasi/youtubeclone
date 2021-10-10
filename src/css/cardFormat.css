@@ -1,0 +1,74 @@
+.cardformat {
+    color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cardformat:hover{
+    background-color: #222222;
+}
+.cardformat .head {
+    position: relative;
+}
+.cardformat .head .thumbnail{
+    margin-top: 10px;
+}
+.cardformat .head .duration{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.888);
+    bottom: 1%;
+    right: 1%;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.cardformat .body{
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+}
+.cardformat .body .avatar{
+    text-align: center;
+    padding: 0;
+}
+.cardformat .body .avatar img{
+    border-radius: 50%;
+}
+.cardformat .body .details{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.cardformat .body .title{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    margin-left: 2px;
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+
+}
+.cardformat .body .channelName{
+    margin: 10px 2px 2px 2px;
+    color: #b9b9b9;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0;
+}
+.cardformat .body .viewsc{
+    margin: 0;
+    color: #b9b9b9;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0;
+    margin-right: 3px;
+}
+.cardformat .body .upload{
+    margin: 0;
+    color: #b9b9b9;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0;
+    margin-left: 3px;
+}

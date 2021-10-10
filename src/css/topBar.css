@@ -47,9 +47,23 @@
 
 .topbar .mic{
     background-color: #181818;
-    height: 35px;
-    width: 35px;
-    padding: 3px 0 0 6px;
+    min-height: 35px;
+    min-width: 35px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto 18% auto 5px;
     border-radius: 50%;
+}
+@media screen and (max-width: 960px) {
+	.topbar .mic{
+        margin: auto 5% auto 2px;
+    }
+    .topbar .logo {
+        padding-right: 2%;
+    }
+    .topbar .item{
+        font-size: 20px;
+    }
 }

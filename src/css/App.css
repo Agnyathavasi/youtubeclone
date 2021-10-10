@@ -18,11 +18,25 @@
     margin: 0;
     padding: 0;
     float: left;
-    width: 18%;
+    width: 15%;
 }
-.right {
+.App .right {
     margin: 0;
     padding: 0;
     float: right;
-    width: 82%;
+    width: 85%;
+}
+@media screen and (max-width: 1080px) {
+    .App .left {
+        margin: 0;
+        padding: 0;
+        float: left;
+        width: 10%;
+    }
+    .App .right {
+        margin: 0;
+        padding: 0;
+        float: right;
+        width: 90%;
+    }
 }
