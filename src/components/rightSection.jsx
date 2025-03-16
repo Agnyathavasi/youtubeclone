@@ -5,7 +5,7 @@ import SuggestionBar from "./suggestionbar";
 import content from "./contentItems";
 
 function RightSection() {
-  let arr = content.sort(() => Math.random() - 0.5)
+  let arr = content.sort(() => Math.random() - 0.5);
   return (
     <div className="rightSection">
       <SuggestionBar />
